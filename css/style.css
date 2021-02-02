@@ -3,6 +3,12 @@ Colors used:
 Primary Color (Azure): #F0FFFF;
 Secondary Color (Black): #000000;
 */
+header {
+  background-color: #F0FFFF;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #414141
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
@@ -42,9 +48,6 @@ a {
 a:hover {
   color: #160F29;
   text-decoration: underline; /* Underlining when hovering over a link */
-}
-a:visited { /* visited link */
-  color: #ffffff;
 }
 a:active { /* selected link */
   color: #28231C;
