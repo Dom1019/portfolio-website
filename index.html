@@ -14,8 +14,10 @@
 
 <body>
   <header>
-    <div id="header">
+    <div class="container">
+      <div class="logo">
       <img src="img/Dm-logo-inverse.png" class="Logo" alt="Your Name"><!--logo-->
+    </div>
       <!-- For the navigation -->
       <nav>
         <ul>
@@ -27,18 +29,18 @@
     </div>
   </header>
   <main>
-    <div><!--Whole section block - HERO -->
-      <div><!-- Container -->
+    <div id="hero"><!--Whole section block - HERO -->
+      <div class="container"><!-- Container -->
         <h1>Hi, My name is Dominic Micheli. <span>I design products that make life simple.</span></h1>
         <p> Im a User Interface / Experience Designer and Entreprenuer with 8 years experience in Graphic Design based In Sunny San Diego. </p>
       </div>
     </div>
 
     <div id="work"><!--Whole Section Block - WORK -->
-      <div>
+      <div class="container">
         <h4>My Work</h4>
       <!-- START PROJECT -->
-      <div><!-- open row that holds (2) columns for project -->
+      <div class="row"><!-- open row that holds (2) columns for project -->
         <div><!-- open first column (used for image) -->
           <picture>
             <source srcset="img/salt-and-resin/SaltandResin_Covershot_1200x.png" media="(max-width:767px)">
@@ -53,17 +55,17 @@
           <p><!-- open paragraph -->
             Visual Design, UX Design and Branding
           </p><!-- end paragraph -->
-      <a href="#" class="button">Read more</a>
+      <a href="salt-and-resin.html" class="button">Read more</a>
         </div><!-- end second column -->
       </div><!-- end row that holds (2) columns for project -->
       <!-- END PROJECT -->
 
       <!-- START PROJECT -->
-      <div><!-- open row that holds (2) columns for project -->
+      <div class="row"><!-- open row that holds (2) columns for project -->
         <div><!-- open first column (used for image) -->
           <picture>
-            <source srcset="img/Nektor Sunscreen/Nektor Sunscreen Mac Mockup.jpg" media="(max-width:767px)">
-            <img src="img/Nektor Sunscreen/Nektor Sunscreen Mac Mockup.jpg" alt="My Image">
+            <source srcset="img/Nektor-Sunscreen/nektor-covershot.jpg" media="(max-width:767px)">
+            <img src="img/Nektor-Sunscreen/nektor-covershot.jpg" alt="My Image">
           </picture>
         </div><!-- end first column -->
         <div><!-- open second column (used for text) -->
@@ -80,7 +82,7 @@
       <!-- END PROJECT -->
 
       <!-- START PROJECT -->
-      <div><!-- open row that holds (2) columns for project -->
+      <div class="row"><!-- open row that holds (2) columns for project -->
         <div><!-- open first column (used for image) -->
           <picture>
             <source srcset="img/Wavy/Cover Shot for Wavy.jpg" media="(max-width:767px)">
@@ -103,8 +105,8 @@
     </div>
   </main>
 
-  <footer  id="contact">
-    <div id="footer">
+  <footer>
+    <div class="container">
       <h4>Get in Touch</h4>
       <p>
         Lets work together and create your dream Project!
@@ -113,13 +115,9 @@
       <div>
         <a href="mailto:dvm.micheli@gmail.com?subject=work" class="button contact">Email Me</a>
       </div>
-      <div><!--Social Media Layout and Placeholders-->
-        <a href="https://www.linkedin.com/in/dominic-micheli-43216b146/" target="_blank">
-          <img src="img/linkedin.jpg">
-        </a>
-        <a href="https://www.behance.net/dommicheli" target="_blank">
-          <img src="img/behance.jpg">
-
+      <div class"fab"><!--Social Media Layout and Placeholders-->
+        <a href="https://www.linkedin.com/in/dominic-micheli-43216b146/"><i class="fab"></i></a>
+        <a href="https://www.behance.net/dommicheli"><i class="fab"></i></a>
       </div>
       <p>Copyright Dom Micheli 2021</p>
     </div>
